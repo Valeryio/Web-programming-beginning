@@ -1,0 +1,59 @@
+header
+{
+    height: 10%;
+    width: 100vw;
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+header .logo
+{
+    color: white;
+    font-weight: 600;
+    font-size: 1.2em;
+
+}
+
+header nav
+{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav input
+{
+    height: 40px;
+    width: 250px;
+    border: none;
+    padding: 10px;
+    outline: none;
+    font-size: 0.8rem;
+    border-radius: 20px;
+}
+
+
+header nav a
+{
+    color: black;
+    font-size: 1em;
+    text-decoration: none;
+    transition: color 0.3s ease-in;
+}
+
+header nav a:hover
+{
+    color: white;
+}
+
+header nav button
+{
+    height: 40px;
+    min-width: 80px;
+    border: none;   
+    border-radius: 10px; 
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}

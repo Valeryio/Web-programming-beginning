@@ -1,0 +1,141 @@
+:root
+{
+    --blue-marin: #0051ffcc;
+}
+
+body
+{
+
+    height: 3000px;
+    position: relative;
+
+}
+
+/*---------------------------------------------BACKGROUND-IMAGES------------------------------------------*/
+.landing-img
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    
+}
+
+.landing-img, .back-img
+{
+    z-index: -1000;
+}
+
+.blue-wave
+{
+    width: 65%;
+}
+
+.phone
+{
+    top: 240px;
+    right: 10%;
+    width: 40%;
+    position: absolute;
+}
+
+.paint
+{
+    margin-left: 24rem;
+    margin-bottom: 24rem;
+}
+
+.heading-line
+{
+    top: 68rem;
+    width: 4rem;
+    margin-left: 48%;
+    margin-bottom: 7rem;
+    position: absolute;
+}
+
+.circle-l
+{
+    margin-bottom: 0rem;
+}
+
+.heading-line_two
+{
+    margin-top: 394px;
+    margin-left: 7rem;
+}
+
+
+.price_bord_d
+{
+    right: 0;
+    width: 50%;/*
+    height: 400px;*/
+    margin-left: 50%;
+    margin-top: -25rem;
+    position: relative;
+}
+
+.price_bord_d img:first-child
+{
+    top: 0;
+    position: absolute;
+}
+
+.price_bord_d img:last-child
+{
+    width: 80%;
+    margin-top: 15rem;
+    margin-left: 2rem;
+    position: absolute;
+}
+
+/*---------------------------------------------BACKGROUND-IMAGES------------------------------------------*/
+
+
+/*---------------------------------------------------HEADER-----------------------------------------------*/
+
+header
+{
+    z-index: 1;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    padding: 0 110px;
+    background-color: white;
+    justify-content: space-between;
+    box-shadow: inset 0 -1px 2px rgba(0, 0, 0, 0.4);
+}
+
+
+
+.head-nav-links
+{
+    width: 500px;
+    height: 40px;
+    font-size: 16px;
+    min-width: 495px;
+    margin-left: 400px;
+    justify-content: space-between;
+}
+
+
+.head-nav-links a
+{
+    color:rgba(0, 0, 0, 0.8);
+}
+
+.connexion
+{
+    height: 45%;
+    width: 150px;
+    min-width: 120px;
+    background-color: #0039a6;
+}
+
+.connexion a
+{
+    color: white;
+    font-weight: 900;
+}
+
+/*---------------------------------------------------HEADER-----------------------------------------------*/

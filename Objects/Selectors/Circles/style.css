@@ -1,0 +1,166 @@
+.w
+{
+    color: #34495e, #9a59b5, #3598db, #e67e21, #1abc9b, #8c44ac, #e84c3d, #e57e21
+
+}
+
+*
+{
+    box-sizing: border-box;
+}
+
+body > div:nth-child(1)
+{
+    top: 100px;
+    left: 150px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    border: 1px solid black;
+    border-radius: 0 100% 0 0 / 0 100% 0 0;
+}
+
+body > div:nth-child(1) div
+{
+    /*top: 50%;
+    left: -50%;*/
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%, 50%);
+    border: 1px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body
+{
+    width: 100vw;
+    height: 100vh;
+    padding: 40px;
+}
+
+body > div:nth-child(1) 
+{
+    width: 65px;
+    height: 65px;
+    background: #9a59b5;
+    position: absolute;
+    transform: rotate(3deg) translate(44px, -15px);
+    border-radius: 0 100% 0 0/ 0 100% 0 0;
+    border: 0px solid #0a0a0a;
+}
+
+body > div:nth-child(1) div
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background: #34495e;
+    border: 0.1px solid #3598db;
+
+    
+}
+

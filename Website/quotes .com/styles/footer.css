@@ -1,0 +1,20 @@
+footer
+{
+    bottom: 0;
+    height: 8%;
+    width: 100vw;
+    display: flex;
+    color: #fff;
+    padding: 10px;
+    position: absolute;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+footer a
+{
+    color: white;
+    text-decoration: none;
+}

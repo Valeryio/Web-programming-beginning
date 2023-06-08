@@ -1,0 +1,65 @@
+
+.container
+{
+    width: 1525px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+}
+
+.galilee
+{
+    width: 550px;
+    height: 600px;
+}
+
+.pythagore
+{
+    width: 400px;
+    height: 600px;
+}
+
+.back
+{
+
+    width: 8rem;
+    margin: 20px;
+    height: 60px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: box-shadow 0.2s ease-in;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0);
+}
+
+.back:hover
+{
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.4);
+}
+
+ 
+.php_error
+{
+    top: 50%;
+    left: 50%;
+    width: 1300px;
+    height: 200px;
+    color: white;
+    font-size: 3rem;
+    font-weight: 500;
+    position: absolute;
+    text-align: center;
+    padding: 40px 10px 0 10px;
+    border-radius: 20px;
+    background-color: black;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+}
+
+
+.php_error:hover
+{
+    box-shadow: 8px 8px 50px white;
+} 

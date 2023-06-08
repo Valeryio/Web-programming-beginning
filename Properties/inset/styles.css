@@ -1,0 +1,32 @@
+*
+{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body
+{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container
+{
+    width: 30%;
+    height: 40%;
+    inset-block: 10px 20px 10px 20px;
+    background-color: rgba(220, 20, 60, 0.4);
+}
+
+.son
+{
+    width: 30%;
+    height: 40%;
+
+    background-color: crimson;;
+}

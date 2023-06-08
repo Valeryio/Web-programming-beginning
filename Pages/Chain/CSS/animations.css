@@ -1,0 +1,53 @@
+
+
+/*---------------------------------------------THIRD_SECTION---------------------------------------------*/
+
+/*----------------------------------HOVER-OF-THE-CARDS----------------------------------*/
+
+.third-section .card:not(:hover)
+{
+    background-color: #fff;
+}
+
+
+.third-section .card:not(:hover) div:first-child img
+{
+    display: none;
+}
+
+.third-section .card div:first-child img
+{
+    animation: SlideDown 0.2s;
+}
+
+.third-section .card:hover h1, .third-section .card:hover p
+{
+    color: white;
+}
+
+.third-section .card:hover .read a
+{
+    color: white;
+}
+
+
+
+@keyframes SlideDown 
+{
+    from
+    {
+        top:0%;
+        left: 0%;
+        opacity: 0;
+    }
+    to
+    {
+        top: 0%;
+        left: -40%;
+        opacity: 1;
+    }
+    
+}
+
+
+/*---------------------------------------------THIRD_SECTION---------------------------------------------*/

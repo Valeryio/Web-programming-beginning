@@ -1,0 +1,21 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    width: 98vw;
+    height: 98vh;
+    font-family:  Mason;
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
+
+.flex
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

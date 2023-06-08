@@ -1,0 +1,79 @@
+*
+{
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('OpenSans.woff2') format('woff2'),
+        url('OpenSans.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+}
+
+
+
+body
+{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    color: #ffffff;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-size: contain;
+    background-image: url(images/parquet.jpg);
+}
+
+div 
+{   
+    width: 25rem;
+    height: 8rem;
+    font-size: 4rem;
+    line-height: 7rem;
+    text-align: center;
+    margin-bottom: 4rem;
+    position: relative;
+    font-family: Open Sans;
+    border-radius: 5px;
+    
+}
+
+div::before
+{
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 120px;
+    content: "HOVER";
+    position: absolute;
+    border: 0.1px solid rgb(251, 251, 251);
+}
+
+.one
+{
+    border: 4px solid rgb(5, 33, 247);
+}
+
+.two
+{
+    border: 4px solid rgb(0, 255, 38);
+}
+
+.three
+{
+    border: 4px solid rgb(3, 221, 255);
+}
+
+.four
+{
+    border: 4px solid rgb(225, 52, 52);
+}
+
+div:
+{
+    width: 392px;
+}

@@ -1,0 +1,542 @@
+:root
+{
+    --blue-marin: #0051ffcc;
+}
+
+body
+{
+
+    height: 4000px;
+    position: relative;
+
+}
+
+/*---------------------------------------------BACKGROUND-IMAGES------------------------------------------*/
+.landing-img
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    
+}
+
+.landing-img, .back-img
+{
+    z-index: -1000;
+}
+
+.blue-wave
+{
+    width: 65%;
+}
+
+.phone
+{
+    top: 240px;
+    right: 10%;
+    width: 40%;
+    position: absolute;
+}
+
+.paint
+{
+    margin-left: 24rem;
+    margin-bottom: 24rem;
+}
+
+.heading-line
+{
+    top: 68rem;
+    width: 4rem;
+    margin-left: 48%;
+    margin-bottom: 7rem;
+    position: absolute;
+}
+
+.circle-l
+{
+    margin-bottom: 0rem;
+}
+
+.heading-line_two
+{
+    margin-top: 394px;
+    margin-left: 7rem;
+}
+
+
+.price_bord_d
+{
+    right: 0;
+    width: 50%;/*
+    height: 400px;*/
+    margin-left: 50%;
+    margin-top: -25rem;
+    position: relative;
+}
+
+.price_bord_d img:first-child
+{
+    top: 0;
+    position: absolute;
+}
+
+.price_bord_d img:last-child
+{
+    width: 80%;
+    margin-top: 15rem;
+    margin-left: 2rem;
+    position: absolute;
+}
+
+/*---------------------------------------------BACKGROUND-IMAGES------------------------------------------*/
+
+
+/*---------------------------------------------------HEADER-----------------------------------------------*/
+
+header
+{
+    z-index: 1;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    padding: 0 110px;
+    background-color: white;
+    justify-content: space-between;
+    box-shadow: inset 0 -1px 2px rgba(0, 0, 0, 0.4);
+}
+
+
+
+.head-nav-links
+{
+    width: 500px;
+    height: 40px;
+    font-size: 16px;
+    min-width: 495px;
+    margin-left: 400px;
+    justify-content: space-between;
+}
+
+
+.head-nav-links a
+{
+    color:rgba(0, 0, 0, 0.8);
+}
+
+.connexion
+{
+    height: 45%;
+    width: 150px;
+    min-width: 120px;
+    background-color: #0039a6;
+}
+
+.connexion a
+{
+    color: white;
+    font-weight: 900;
+}
+
+/*---------------------------------------------------HEADER-----------------------------------------------*/
+
+/*---------------------------------------------FIRST_SECTION----------------------------------------------*/
+
+.first-section
+{
+    width: 50%;
+    height: 400px;
+    margin-top: 20rem;
+    padding: 3rem 0 0 8rem;
+}
+
+.first-section h1
+{
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.5em;
+    color:rgba(0, 0, 0, 0.8);
+}
+
+.first-section > p
+{
+    font-size: 14px;
+    line-height: 2em;
+    padding-bottom: 40px;
+    color:rgba(0, 0, 0, 0.7);
+}
+
+.first-section > button
+{
+    width: 10rem;
+    height: 50px;
+    font-size: 1rem;
+    margin-right: 10px;
+    background: linear-gradient(90deg, rgba(0, 210, 255, 0.8) 0%, rgba(58, 71, 213, 0.4) 100%);
+}
+
+.first-section img
+{
+    width: 30px;
+    margin: 5px;
+}
+
+.first-section > button a
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*---------------------------------------------FIRST_SECTION----------------------------------------------*/
+
+/*--------------------------------------------SECOND_SECTION---------------------------------------------*/
+
+.second-section
+{
+    height: 10rem;
+    padding: 1rem;
+    margin-left: 50%;
+    margin-top: 20rem;
+    line-height: 1rem;
+    text-align: center;
+    margin-bottom: 5rem; 
+    transform: translate(-50%);
+    
+}
+
+.second-section h1
+{
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.second-section h1 a
+{
+    color: var(--blue-marin);
+    font-weight: bold;
+}
+
+.second-section p
+{
+    line-height: 2rem;
+    color:rgba(0, 0, 0, 0.5);
+}
+
+.second-section a
+{
+    color: var(--blue-marin);
+    font-style: normal;
+}
+
+/*--------------------------------------------SECOND_SECTION---------------------------------------------*/
+
+/*---------------------------------------------THIRD_SECTION---------------------------------------------*/
+
+.third-section
+{
+    width: 85%;
+    margin: auto;
+    height: 400px;
+    margin-bottom: 198px;
+    justify-content: space-between;
+}
+
+.third-section .card
+{
+    width: 24%;
+    height: 80%;
+    overflow: hidden;
+    padding: 35px 25px;
+    margin-right: 24px;
+    position: relative;
+    border-radius: 10px 48px 10px 10px;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
+}
+
+
+.third-section .card div:first-child img 
+{
+    top: 0%;
+    left: -40%;
+    width: 150%;
+    height: 100%;
+    z-index: -1;
+    position: absolute;
+}
+
+.third-section .card > .logo_multicolor
+{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.third-section .card > .logo_multicolor img
+{
+    width: 100%;
+}
+
+.third-section .card > .logo_multicolor .image_2
+{
+    left: 0;
+    opacity: 0;
+    position: absolute;
+}
+
+.third-section .card h1
+{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.third-section .card p
+{
+    font-size: 15px;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.third-section .card:nth-child(2) p
+{
+    margin-bottom: 0.5rem;
+}
+
+.third-section .card p a
+{
+    color: var(--blue-marin);
+}
+
+
+.third-section .card > .read
+{
+    width: 7rem;
+    height: 2rem;
+}
+
+.third-section .card > .read a
+{
+    width: 100%;
+    height: 100%;
+    color: var(--blue-marin);
+    justify-content: space-between;
+}
+
+
+.third-section .card > .read a img
+{
+    width: 20px;
+}
+
+
+.third-section .card:hover > .logo_multicolor .image_2
+{
+    opacity: 1;
+}
+
+
+
+
+
+
+/*---------------------------------------------THIRD_SECTION---------------------------------------------*/
+
+/*---------------------------------------------FOURTH_SECTION---------------------------------------------*/
+
+
+
+
+
+/*---------------------------------------------FOURTH_SECTION---------------------------------------------*/
+
+.fourth-section
+{
+    margin-left: 100px;
+}
+
+.fourth-section h1:first-child
+{
+    font-weight: 600;
+    font-size: 1.8rem;
+    margin-bottom: 40px;
+}
+
+.fourth-section h1:first-child span
+{
+    color: var(--blue-marin);
+}
+
+
+.fourth-section > p
+{
+    font-size: 16px;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.fourth-section .services
+{
+    width: 40rem;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px 10px;
+    flex-shrink: no shrink;
+    justify-content: space-between;
+    
+}
+
+.fourth-section .services .services_offered
+{
+    width: 18rem;
+    height: 80px;
+    flex-wrap: wrap;
+    padding: 1rem 4rem 1rem 30px;
+    margin-bottom: 2rem;
+    border-radius: 70px;
+    box-shadow: 1px 1px 14px rgba(0, 0, 0, 0.1);
+}
+
+.fourth-section .services .services_offered h2
+{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+.fourth-section .services .services_offered p
+{
+    color: rgba(0, 0, 0, 0.4);
+}
+
+
+.fourth-section button
+{
+    width: 12rem;
+    height: 50px;
+    margin-left: 10px;
+    margin-bottom: 1rem;
+    background-color: #0039a6;
+}
+
+.fourth-section button a
+{
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+}
+
+.fourth-section > h3
+{
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+
+/*---------------------------FIFTH-SECTION-----------------------------*/
+
+.fifth-section
+{
+    height: 10rem;
+    padding: 1rem;
+    margin-left: 50%;
+    margin-top: 10rem;
+    line-height: 1rem;
+    text-align: center;
+    margin-bottom: 5rem; 
+    transform: translate(-50%);
+}
+
+
+.fifth-section h1
+{
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.fifth-section h1 a
+{
+    color: var(--blue-marin);
+    font-weight: bold;
+}
+
+.fifth-section p
+{
+    line-height: 2rem;
+    color:rgba(0, 0, 0, 0.5);
+}
+
+.fifth-section a
+{
+    color: var(--blue-marin);
+    font-style: normal;
+}
+
+
+/*-----------------------------SIXTH-SECTION--------------------------------*/
+
+.sixth-section
+{
+    width: 80%px;
+    height: 600px;
+    display: flex;
+    margin: 0 5%;
+    justify-content: space-between;
+}
+
+.sixth-section > div
+{
+    width: 40%;
+    height: 98%;
+}
+
+.sixth-section > .left
+{
+    padding-top: 80px;
+}
+
+.sixth-section > div .profile
+{
+    height: 50px;
+    display: flex;
+    margin-bottom: 2rem;
+    justify-content: space-between;
+}
+
+.sixth-section > div .profile h2
+{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.sixth-section > div .profile .name
+{
+    width: 12rem;
+}
+
+.sixth-section > div .profile .name h4
+{
+    font-size: 14px;
+    color:rgba(0, 0, 0, 0.4);
+}
+
+.sixth-section > div .profile .job
+{
+    width: 12rem;
+    font-size: 14px;
+    color:rgba(0, 0, 0, 0.4);
+}
+
+
+.sixth-section > div .profile .stars
+{
+    width: 10rem;
+}

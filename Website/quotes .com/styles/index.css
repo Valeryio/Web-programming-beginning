@@ -1,0 +1,57 @@
+
+
+.container
+{
+    width: 1525px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+}
+
+
+.galilee
+{
+    width: 550px;
+    height: 600px;
+}
+
+.pythagore
+{
+    width: 400px;
+    height: 600px;
+}
+
+main
+{
+    margin-right: 70px;
+    text-align: center;
+    margin-bottom: 325px;
+}
+
+main > h2
+{
+    font-size: 3em;
+}
+
+main > h4
+{
+    font-size: 1.5em;
+}
+
+main > h5
+{
+    font-size: 0.8em;
+    margin-bottom: 25px;
+}
+
+main form > input
+{
+    width: 6rem;
+    height: 3rem;
+    border: none;
+    cursor: pointer;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.2) ;
+    border-radius: 10px;
+}
