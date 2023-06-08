@@ -1,0 +1,110 @@
+*
+{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body
+{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.cadre
+{
+  position: relative;
+  height: 400px;
+  width: 400px;
+  background: #2c3e50;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.bougie
+{
+    position: absolute;
+    width: 60px;
+    height: 200px;
+    top: 160px;
+    left: 170px;
+    background: #ffff;
+    border-radius: 3px;
+    box-shadow: inset -14px 0 0 0 #e0e5ff;
+}
+
+.ombre
+{
+  width: 8rem;
+  height: 0.5rem;
+  left: -2rem;
+  bottom: -9px;
+  position: absolute;
+  background: #1b233E;
+
+}
+
+.meche
+{
+  position: absolute;
+  background: gray;
+  width: 10px;
+  height: 1rem;
+  top: -1rem;
+  left: 40%;
+}
+
+.flamme
+{
+  position: absolute;
+  background: #ffad00;
+  width: 2rem;
+  height: 4.2rem;
+  top: -5.2rem;
+  left: 22%;
+  transform-origin: 50% 100%;
+  border-radius: 18px 18px 14px 14px / 4rem 4rem 18px 18px;
+  animation: vent 15s ease-in-out infinite,
+              mouvement 20s ease-in-out infinite,
+              taille 10s ease-in-out infinite;
+}
+
+@keyframes vent 
+{
+  0%, 25%, 55%, 85% 
+  {
+    border-radius: 8px 28px 14px 14px / 4rem 4rem 18px 18px;
+  }
+
+  35%, 65%, 100%
+  {
+    border-radius: 28px 8px 14px 14px / 4rem 4rem 18px 18px;
+  } 
+}
+
+@keyframes taille 
+{
+  0%, 25%, 55%, 85% 
+  {
+    transform: scale(0.6, 1.2);
+  }
+
+  35%, 65%, 100%
+  {
+    transform: scale(0.8, 0.5);
+  } 
+}
+
+@keyframes mouvement 
+{
+  0%, 25%, 55%, 85% 
+  {
+    box-shadow: 0 0 30px #ffad00 ;
+  }
+
+  35%, 65%, 100%
+  {
+    box-shadow: 0 0 30px #ffad00 ;
+  } 
+}

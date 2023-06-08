@@ -1,0 +1,217 @@
+body{
+    color: hite;
+    font-family: Bahnschrift;
+    /*background-image: linear-gradient(#485563, #29323c)*/
+    background-color: white;
+}
+
+
+
+
+header
+{
+    width: auto;
+    height: 50px;
+    margin-bottom: 6px;
+    position: relative;
+    /*border: 2px solid gray;*/
+}
+
+.fa-facebook
+{
+    /*display: inline-block;
+    vertical-align: top;*/
+    color: blue;
+    font-size: 2.5rem;
+}
+
+.rface
+{
+    position: absolute;
+    bottom: 0.2rem;
+    left: 3rem;
+}
+
+.typeone
+{
+    height: 2.8rem;
+    width: 16rem;
+    border-radius: 30px;
+}
+
+
+.i1
+{
+    display: inline-block;
+    position: relative;
+    left: 30rem;
+    top: 2px;
+    bottom: 1px;
+    margin-left: 3.8rem;
+    font-size: 1.5rem;
+}
+
+.i2
+{
+    display: inline-block;
+    position: relative;
+    left: 40rem;
+    top: 2px;
+    bottom: 1px;
+    margin-left: 14px;
+    font-size: 1.5rem;
+}
+
+.cot
+{
+    width: 22rem;
+    height: 60rem;
+    padding: 5px;
+    display: inline-block;
+    box-sizing: border-box;
+    /*border: 2px solid black;*/
+}
+
+.cot1
+{
+    display: block;
+    height: 45px;
+    font-size: 1.4em;
+    margin-bottom:4px;
+    left: 14px;
+    position: relative;
+    /*border: 2px solid black;*/
+}
+
+.cot1:hover{
+    color: rgb(6, 6, 211);
+}
+
+.fay
+{
+    font-size: 2rem;
+}
+
+
+
+
+
+
+
+
+
+.cot2
+{
+    width: 45rem;
+    height: 60rem;
+    border: 3px solid black;
+    vertical-align: top;
+    position: relative;
+    display: inline-block;
+}
+
+.status
+{
+    width: 45rem;
+}
+
+.didiv
+{
+    display: block;
+    position: absolute;
+    width: 44.5rem;
+    height: 8rem;
+    top: 15.5rem;
+    left: 2px;
+    
+    /*border: 2px solid black;*/
+}
+
+.div1
+{
+    display: block;
+    position: absolute;
+    width: 43.5rem;
+    height: 3rem;
+    top: 0.3rem;
+    left: 2px;
+    /*border: 2px solid black;*/
+}
+
+.typetwo
+{
+    width: 40rem;
+    height: 2.5rem;
+    border-radius: 40px;
+}
+
+.lolo
+{
+    position: absolute;
+    top: 9rem;
+    width: 44rem;
+    height: 35rem;
+}
+
+.cot3
+{
+    width: 25.6rem;
+    height: 60rem;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    box-sizing: border-box;
+    padding: 4px;
+    border: 3px solid black;
+}
+
+.jeux
+{
+    position: relative;
+    width: 4px;
+    height: 14px;
+    display: block;
+}
+
+.sponsors
+{
+    font-size: 1.5em;
+    position: relative;
+    left: 8rem;
+}
+
+.humors
+{
+    position: relative;
+    top: 6rem;
+    margin:
+}
+
+
+
+
+
+
+/*.fa-house, .fa-playfa-store, .fa-users-medical, .fa-game-board-simple, .fa-buromobelexperte, .fa-bell
+{
+    
+}
+*/
+
+/*.fa-house
+{
+    font-size: 2.9rem;
+    position: absolute;
+    left: 30rem;
+    bottom: 0.095rem;
+
+}
+
+.fa-airplay
+{
+    font-size: 2.9rem;
+    position: absolute;
+    left: 40rem;
+    bottom: 0.095rem;
+}
+*/

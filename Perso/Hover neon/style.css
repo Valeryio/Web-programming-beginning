@@ -1,0 +1,118 @@
+*
+{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Segoe UI';
+    font-size: 2.5rem;
+    /*background-image: url(black_luxurs.jpg);*/
+    background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
+}
+
+body a 
+{
+    
+       
+    width: 14rem;
+    height: 6rem;
+    color: transparent/*#ffffff*/;
+    border-radius: 3px;
+    text-align: center;
+    position: relative;
+    line-height: 5.5rem;
+    text-decoration: none;
+    /*border: 2px solid black;*/
+    transition: all 0.5s 3.9s ease-in-out;
+    
+}
+
+
+body a:hover
+{
+    color: #000000;
+    background: #2196f3;
+    box-shadow: 0 0 3rem #2196f3, 0 0 3rem #2196f3;
+}
+
+
+a span:nth-child(1)
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 4px;
+    transition: all 1s ease-in-out;
+    border-radius: 5px;
+    /*border: 1px solid white;*/
+}
+
+a:hover span:nth-child(1)
+{
+    width: 14rem;
+    background: linear-gradient(to right, transparent, #2196f3);
+}
+
+
+a span:nth-child(2)
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 4px;
+    height: 0;
+    transition: all 1s 0.9s ease-in-out;
+    border-radius: 5px;
+    /*border: 1px solid white;*/
+}
+
+a:hover span:nth-child(2)
+{
+    height: 6rem;
+    background: linear-gradient(to bottom, transparent, #2196f3);
+}
+
+
+a span:nth-child(3)
+{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 4px;
+    transition: all 1s 1.9s ease-in-out;
+    border-radius: 5px;
+    /*border: 1px solid white;*/
+}
+
+a:hover span:nth-child(3)
+{
+    width: 14rem;
+    background: linear-gradient(to left, transparent, #2196f3);
+}
+
+
+a span:nth-child(4)
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 4px;
+    height: 0;
+    transition: all 1s 2.9s ease-in-out;
+    border-radius: 5px;
+   /* border: 1px solid white;*/
+}
+
+a:hover span:nth-child(4)
+{
+    height: 6rem;
+    background: linear-gradient(to top, transparent, #2196f3);
+}
+

@@ -1,0 +1,21 @@
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    padding: 50% 0;
+
+}
+
+body>div
+{
+    width: 14rem;
+    height: 12rem;
+    margin: auto;
+    transform: translate(0, 0%);
+    background-color: rgb(238, 103, 103);
+}
+
+

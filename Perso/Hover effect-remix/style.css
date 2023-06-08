@@ -1,0 +1,145 @@
+*
+{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    display: flex;
+    height: 100vh;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+    font-family: consolas;
+    font-size: 1.2rem;
+    background: linear-gradient(to top right, rgba(0, 0, 255, 1.2), rgba(18, 211, 240, 0.8));
+}
+
+body div
+{
+    width: 10rem;
+    height: 4rem;
+    line-height: 4rem;
+    border-radius: 3px;
+    text-align: center;
+    position: relative;
+   /* border: 1px solid white;*/
+    transition: all 0.5s ease-in-out;
+}
+ 
+body div:hover
+{
+    color: rgb(6, 6, 113);
+    font-size: 1.4rem;
+}
+
+
+span
+{
+    display: block;
+    z-index: -1; 
+    overflow: hidden; 
+    position: absolute;
+    border-radius: 3px;
+    background: rgba(255, 255, 255, 0.6);
+    box-shadow: 0 4px 16px rgba(0, 0. 0. 0.5);
+    transition: all 3s ease-in-out;
+}
+
+.diagonal-1
+{
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    transition: all 2s ease-in-out;
+}
+
+body div:hover .diagonal-1
+{
+    width: 10rem;
+    height: 4rem;
+    background: rgba(255, 255, 255, 0.9);
+
+}
+
+.diagonal-2
+{
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    transition: all 2s ease-in-out;
+}
+
+body div:hover .diagonal-2
+{
+    width: 10rem;
+    height: 4rem;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.diagonal-3
+{
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    transition: all 2s ease-in-out;
+}
+
+body div:hover .diagonal-3
+{
+    width: 10rem;
+    height: 4rem;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.diagonal-4
+{
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    transition: all 2s ease-in-out;
+}
+
+body div:hover .diagonal-4
+{
+    width: 10rem;
+    height: 4rem;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.center
+{
+
+    width: 5px;
+    height: 5px;
+    text-align: center;
+    border-radius: 50%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: transparent;
+    z-index: -2;
+    transition: all 4s ease-in-out;
+  /*  border: 1px solid white;*/
+}
+
+body div:hover .center
+{
+    background: rgba(255, 255, 255, 0.9);
+    transform: scale(1000, 1000);
+}
+
+.cent
+{
+    top: 0;
+    left: 0;
+    width: 10rem;
+    height: 4rem;
+    z-index: -2;
+    background: transparent;
+}

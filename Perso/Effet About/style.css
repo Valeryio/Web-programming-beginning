@@ -1,0 +1,511 @@
+*
+{
+    margin: 0px;
+    box-sizing: border-box;
+} 
+
+
+ul
+{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column nowrap;
+    
+
+}
+
+li
+{
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    margin: 0px;
+    background: linear-gradient(to right, rgb(32, 31, 35), rgb(248, 138, 138));
+}
+
+ul
+{
+    
+    margin: 10%;
+    padding: 5%;
+    display: block;
+    height: 35rem;
+    width: 80%;
+    list-style-type: none;
+    font-family: sans-serif;
+    font-size: 3.5rem;
+    line-height: 1;
+    overflow: hidden;
+    text-transform: uppercase;
+    border: 3px solid rgb(9, 7, 8);
+    transition: all 0.8 ease-in-out;
+}
+
+li
+{
+    border: 2px solid #fff;
+    margin-bottom: 4px;
+    overflow: hidden;
+    height: 6rem;
+    text-align: center;
+    position: relative;
+}
+
+.mask
+{
+    position: absolute;
+    right: 25%;
+    
+
+}
+
+.two, .three
+{
+    color: transparent;
+    margin: 15px;
+}
+
+.one
+{
+    margin: 15px;
+    height: 36%;
+    overflow: hidden;
+    border: 2px solid blue;
+    transition: all 3s ease-in-out;
+    cursor: pointer;
+}
+
+.two
+{
+    color: blueviolet;
+    transition: all 3s ease-in-out;
+}
+
+.one:hover
+{
+    transform: translate(-2rem, 0px);
+}
+
+
+
+
+/*.Menu
+{
+    position: relative;
+    color: transparen;
+    padding-right: 50%;
+    cursor: pointer;
+    display: block;
+    height: 6rem;
+    width: 80%;
+    margin: 4px;
+    overflow: hidden;
+    border: 3px solid rgb(229, 215, 226);
+}
+
+.mask
+{
+    position: absolute;
+    transform: translateX(100%);
+    border: 3px solid rgb(213, 202, 47);
+}
+
+.spa-1
+{
+    height: 50%;
+    border: 2px solid black;
+    overflow: hidden;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*body
+{
+    width: 100vh;
+    height: 100vh;
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+ 
+body
+{
+    background: linear-gradient(45deg, rgb(137, 131, 228), rgb(248, 138, 138));
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+
+.Menu
+{
+    font-size: 4.25rem;
+    line-height: 1.2;
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ 
+*/
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ /*body
+{
+    height: 200vh;
+     
+}
+
+.container  
+{
+    border: 2px solid black;
+    margin-top: 5rem;
+   
+}
+
+.box
+{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    font-size: 2rem;
+}
+
+.box-1
+{
+    background-color: hsl(0 30% 50%);
+    position: relative;
+    top: 50px;
+}
+.box-2
+{
+    background-color: hsl(50 30% 50%);
+    position: absolute;
+    top: 0px;
+}
+.box-3 
+{
+    background-color: hsl(150 30% 50%);
+}
+.box-4
+{
+    background-color: hsl(200 30% 50%);
+}
+.box-5
+{
+    background-color: hsl(250 30% 50%);
+}
+.box-6
+{
+    background-color: hsl(300 30% 50%);
+} 
+
+.box-7 
+{
+    background-color: hsl(0 30% 50%);
+}
+
+.box-8
+{
+    background-color: hsl(0 30% 50%);
+}
+
+.box-9
+{
+    background-color: hsl(0 30% 50%);
+}
+
+.box-10 
+{
+    background-color: hsl(0 30% 50%);
+}
+.box-11
+{
+    background-color: hsl(0 30% 50%);
+}
+*/

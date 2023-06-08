@@ -1,0 +1,67 @@
+*
+{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:1.2rem;
+    font-family: poppins;
+    background: #060c21;
+    color: white;
+}
+
+body div 
+{
+    width: 20rem;
+    height: 30rem;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    background: #000;
+    border: 2px solid black;
+    /*border: 1px solid rgb(221, 212, 212);*/
+    z-index: 1;
+}
+
+body div::before
+{
+    position: absolute;
+    content: '';
+    background: white;
+    top: -2px;
+    right: -2px;
+    bottom: -2px;
+    left: -2px;
+    
+    z-index: -1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+p
+{
+    top: 40%;
+    line-height: 1.2rem;
+    position: absolute;
+}
+*/

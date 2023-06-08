@@ -1,0 +1,49 @@
+*
+{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body
+{
+    text-align: center;
+    margin: 0;
+}
+
+
+
+.container
+{
+    width: 70%;
+    height: 35%;
+    margin-top: 35%;
+    padding: 1rem;
+    border: 2px solid gray;
+    border-radius: 5px;
+    display: inline-block;
+    position: relative;
+}
+
+
+
+.container-1
+{
+    width: 90%;
+    height: 85%;
+    margin: auto;
+    margin-top: 1rem;
+    position: relative;
+    display: inline-block;
+    border: 2px solid black;
+
+}
+
+.container-1>h1
+{
+    font-size: 3.5rem;
+    margin: auto;
+    margin-top: 15%;
+    display: inline-block;
+    font-weight: 100px;
+    border: 2px solid black;
+}

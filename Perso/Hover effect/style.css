@@ -1,0 +1,130 @@
+* 
+{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    display: flex;
+    height: 100vh;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+    font-family: consolas;
+    font-size: 1.4rem;
+    background: radial-gradient(circle at 100% 100%, rgba(255, 255, 255, 0.1), rgba(236, 92, 92, 0.8));
+}
+
+body div
+{
+    position: relative;
+    width: 8rem;
+    height: 3.5rem;
+    line-height: 3.5rem;
+    text-align: center;
+    /*border: 5px solid #896868;*/
+    border-radius: 3px ;
+    transition: color 0.8s;
+    padding-top: 0;
+}
+
+body div:hover
+{
+    color: white;
+}
+
+span
+{
+    position: absolute;
+   /* top: 0;
+    left: 0;*/
+    z-index: -1;
+    /*width: 8rem;
+    height: 3.5rem;*/
+    border-radius: 3px;
+    /*border: 1px solid black;*/
+    /*background: rgba(210, 0, 35, 0.3);*/
+}
+
+.one
+{
+    top: 0;
+    left: 0;
+    width: 0rem;
+    height: 3.5rem;
+    transition: all 2s ease-in-out;
+}
+
+body div:hover .one
+{
+    background: rgb(231, 44, 44);
+    width: 8rem;
+
+}
+
+span.two
+{
+    top: 0;
+    right: 0;
+    width: 0rem;
+    height: 3.5rem;
+    transition: all 2s ease-in-out;
+}
+
+body div:hover .two
+{
+    background: rgb(231, 44, 44);
+    width: 8rem;
+
+}
+
+.three
+{
+    top: 0;
+    left: 0;
+    width: 8rem;
+    height: 0;
+    transition: all 2s ease-in-out;
+}
+
+body div:hover .three
+{
+    background: rgb(231, 44, 44);
+    height: 3.5rem;
+
+}
+
+
+.four
+{
+    bottom: 0;
+    left: 0;
+    width: 8rem;
+    height: 0;
+    transition: all 2s ease-in-out;
+}
+
+body div:hover .four
+{
+    background: rgb(231, 44, 44);
+    height: 3.5rem;
+
+}
+
+.five
+{
+    bottom: 0;
+    left: 0;
+    width: 0rem;
+    height: 0;
+    transition: all 2s ease-in-out;
+}
+
+body div:hover .five
+{
+    background: rgb(231, 44, 44);
+    width: 8rem;
+    height: 3.5rem;
+
+}

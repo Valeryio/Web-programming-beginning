@@ -1,0 +1,113 @@
+*
+{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+body>div
+{
+    width: 400px;
+    height: 400px;
+    border-radius: 5px;
+    position: relative;
+    background: rgba(23, 23, 87, 0.9);
+    
+}
+
+body>div div:nth-child(1)
+{
+    bottom: 1.3rem;
+    left: 44%;
+    width: 4rem;
+    height: 40%;
+    position: absolute;
+    border-radius: 2px;
+    background: #f8eeee;
+    box-shadow: inset 8px 0 rgba(111, 134, 160, 0.4);
+}
+
+body>div div:nth-child(2)
+{
+    bottom: 0;
+    left: 32%;
+    height: 5%;
+    width: 10rem;
+    position: absolute;
+    border-radius: 2px;
+    background: rgba(33, 30, 77, 1.2) ;
+}
+
+body>div div:nth-child(3)
+{
+    top: 50%;
+    left: 51%;
+    width: 8px;
+    height: 1.3rem;
+    position: absolute;
+    background: white;
+}
+
+body>div div:nth-child(4)
+{
+    
+    left: 49%;
+    bottom: 48%;
+    width: 1.5rem;
+    height: 2.5rem;
+    position: absolute;
+    background: #d59f3a;
+    transform-origin: 50% 100%;
+    border-radius: 40px 40px 30px 30px / 100px 100px 25px 25px;
+    animation: vent 15s ease-in-out infinite,
+                taille 20s ease-in-out infinite,
+                mouvement 10s ease-in-out infinite;
+}
+
+@keyframes vent 
+{
+    0%, 30%, 60%, 95%
+    {
+        border-radius: 20px 65px 30px 30px / 100px 100px 25px 25px;
+    }
+
+    15%, 45%, 85%, 100%
+    {
+        border-radius: 65px 20px 30px 40px / 100px 100px 40px 40px;   
+    }
+}
+
+@keyframes taille
+{
+     30%, 60%, 95%
+    {
+        transform: scale(0.9, 1.9);
+    }
+
+    15%, 85%, 100%
+    {
+        transform: scaleX(1);
+    }
+}
+
+@keyframes mouvement
+{
+    0%, 30%, 60%, 95%
+    {
+        box-shadow: 2px 2px 14px rgba(213, 159, 58, 1);
+    }
+
+    15%, 85%, 100%
+    {
+        box-shadow: 2px 2px 14px rgba(213, 159, 58, 1);
+    }
+}

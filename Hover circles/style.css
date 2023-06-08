@@ -1,0 +1,84 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right bottom, #51e2f5, #9df9ef, #edf756, #ffa8b6, #a28089);
+}
+
+body > div /**/ /*Container*/
+{
+    width: 32rem;
+    height: 32rem;
+    padding: 4rem;
+    border-radius: 50%;
+    box-shadow: 6px 2px 6px 4px rgba(0, 0, 0, 0.6);
+    background-color: #51e2f5;
+    border: 2px solid #51e2f5;
+} 
+
+body > div > div
+{
+    width: 24rem;
+    height: 24rem;
+    padding: 4rem;
+    border-radius: 50%;
+    background-color: #9df9ef;
+    border: 2px solid #9df9ef;
+    box-shadow: 3px 2px 6px 4px rgba(0, 0, 0, 0.6);
+}
+
+body > div > div > div
+{
+    width: 16rem;
+    height: 16rem;
+    padding: 4rem;
+    border-radius: 50%;
+    background-color: #edf756;
+    border: 2px solid #edf756;
+    box-shadow: 3px 2px 6px 4px rgba(0, 0, 0, 0.6);
+}
+
+body > div > div > div > div
+{
+    width: 8rem;
+    height: 8rem;
+    padding: 4rem;
+    border-radius: 50%;
+    transition: animation 5s;
+    background-color: #ffa8b6;
+    border: 2px solid #ffa8b6;
+    box-shadow: 3px 2px 6px 4px rgba(0, 0, 0, 0.6);
+}
+
+div
+{
+    animation: bigger 15s ease-in infinite 2s;
+}
+
+@keyframes bigger 
+{
+    0%
+    {
+        transform: scale(1);
+    }
+
+    50%
+    {
+        transform: scale(1.1);
+    }
+
+    100%
+    {
+        transform: scale(1);
+    }
+}

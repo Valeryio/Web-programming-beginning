@@ -1,0 +1,107 @@
+.corps
+{
+    margin: auto;
+    width: 1000px;
+    height: 806px;
+    position: relative;
+    border-radius: 25px;
+}
+
+.tete
+{
+    height:30px;
+    width: 997px;
+    font-size: 1.6em;
+    font-weight: bold;
+    text-align: center;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background-color: rgb(189, 62, 62);
+}
+
+.menu
+{
+    width: 202px;
+    height: 752px;
+    vertical-align: top;
+    display: inline-block;
+    background-color:rgb(166, 120, 55);
+}
+
+.mot
+{
+    top: 8px;
+    left: 18px;
+    font-size: 1.2em;
+    font-weight: bold;
+    position: relative;
+}
+
+.oe
+{
+    top: 20px;
+    left: 20px;
+    margin-bottom: 4px;
+    position: relative;
+    text-decoration: none;
+    color: rgb(64, 64, 158);
+}
+
+.one
+{   
+    top: 20px;
+    left: 20px;
+    position: relative;
+    text-decoration: none;
+    color: rgb(64, 64, 158);
+}
+
+.article 
+{
+    left: 202px;
+    width: 745px;
+    height: 705px;
+    padding: 25px;
+    position: absolute;
+    vertical-align: top;
+    display: inline-block;
+    background-color:rgb(58, 125, 128);
+}
+
+.diamond
+{
+    width: 250px;
+    height: 250px;
+    border-radius: 1rem 5em 1em 5em/1rem 5em 1em 5em;
+   /* position: relative;
+    right: 6px;*/
+
+}
+
+.pierre
+{
+    position: absolute;
+    right: 150px;
+}
+
+.bouton
+{
+    border-radius: 4px;
+    box-shadow: 0px 0px black;
+
+}
+
+.foot
+{
+    left: 0px;
+    bottom: 0px; 
+    margin: 0px;
+    width: 997px;
+    font-size: 1.3em;
+    text-align: center;
+    position: absolute;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color:rgb(58, 128, 100);
+}
+

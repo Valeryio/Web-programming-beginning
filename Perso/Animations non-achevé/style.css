@@ -1,0 +1,27 @@
+.animatedbox
+{
+    width: 10rem;
+    height: 10rem;
+    color: white;
+    background: black;
+    display: inline-block;
+    margin: 20px;
+    align-items: center;
+    line-height: 10rem;
+    border-radius: 3rem;
+    text-align: center;
+    justify-content: center;
+    transition-property: background-color, border-radius, transform;
+    transition-duration: 2s, 4s, 4s;
+    transition-delay: 0s, 2s, 3s;
+    transition-timing-function: ease-in;
+
+
+}
+
+.box0:hover
+{
+    background: red;
+    border-radius: 50%;
+    transform: rotate(1080deg)
+}

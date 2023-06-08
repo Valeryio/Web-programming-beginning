@@ -1,0 +1,314 @@
+*
+{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', 'sans-serif';
+}
+
+body
+{
+    width: 100vw;
+    height: 100vh; 
+    display: flex;
+}
+
+                      /*---------------------Red_Box----------------------*/
+
+.red_box
+{
+    width: 30%;
+    color: white;
+    position: relative;
+    background: #e80707;
+    /*border: 1px solid black;*/
+}
+
+.menu
+{
+    width: 2rem;
+    height: 2rem;
+    margin: 40px;
+    
+}
+
+
+.exp
+{
+    font-size: 10px;
+    margin-bottom: 5rem;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.dvine
+{
+    margin-top: -15px;
+}
+.dvine, .exp
+{
+    margin-left: 6rem;
+}
+
+.white_bar
+{
+    top: 180px;
+    right: 0;
+    height: 20px;
+    width: 280px;
+    background: white;
+    position: absolute;
+}
+
+.quote_text
+{
+    color: #ffffffc7;
+    font-size: 1.2rem;
+    margin-left: 5rem;
+}
+
+.quote_text p::before
+{
+    content: '"';
+    font-size: 1.6rem;
+}
+
+.quote_text p::after
+{
+    content: '"';
+    font-size: 1.6rem;
+    
+}
+
+.photo
+{
+    right: -2rem;
+    width: 14rem;
+    height: 14rem;
+    bottom: 40px;
+    position: absolute;
+}
+
+.fa-solid 
+{
+    
+    left: 12rem;
+    color: #fcfcfc;
+    font-size: 2rem;
+    position: absolute;
+}
+
+.fa-circle-chevron-up
+{
+    bottom: 15rem;
+}
+
+.fa-circle-chevron-down
+{
+
+    bottom: 40px;
+}
+
+.line_1
+{
+    width: 2px;
+    height: 6rem;
+    bottom: 4rem;
+    right: -60px;
+    background: #000;
+    position: absolute;
+}
+
+.line_1::after
+{
+    color: black;
+    bottom: 8rem;
+    right: -12px;
+    content: '22/04';
+    font-size: 11px;
+    position: absolute;
+    transform: rotate(-90deg);
+}
+
+.red_box ul
+{
+    left: -185px;
+    bottom: 235px;
+    position: absolute;
+    transform: rotate(-90deg);
+}
+
+.red_box ul li
+{
+    margin: 0 20px;
+    font-size: 12px;
+    list-style: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+    display: inline-block;
+
+}
+
+
+
+
+                    /*---------------------White_Box----------------------*/
+
+
+.white_box
+{
+    width: 70%;
+    position: relative;
+    /*border: 1px solid black;*/
+}
+
+.red_bar
+{
+    top: 180px;
+    left: 0;
+    height: 20px;
+    width: 280px;
+    background: #e80707;
+    position: absolute;
+}
+
+.red_bar span
+{
+    top: 0px;
+    left: 287;
+    width: 6px;
+    height: 20px;
+    position: absolute;
+    background: #e80707;
+
+}
+
+
+.user, .search
+{
+    width: 20px;
+    height: 20px;
+}
+
+
+.White_box ul 
+{
+
+    top: 85px;
+    right: 45px;
+    position: absolute;
+    
+}
+
+.white_box li, .seach, .user
+{
+    margin: 0 40px;
+    display: inline-block;
+}
+
+.girl
+{
+    
+    right: 8rem;
+    width: 14rem;
+    bottom: 18rem;
+    position: absolute;
+    box-shadow: 4px 4px 14px rgb(176, 170, 170);
+}
+
+.trending
+{
+    right: 18rem;
+    width: 14rem;
+    bottom: 22rem;
+    font-size: 4rem;
+    color:#b0aaaa4d;
+    position: absolute;
+    transform: rotate(-90deg);
+}
+
+
+.red
+{
+    
+    right: 8rem;
+    color: #555;
+    width: 10rem;
+    bottom: 14rem;
+    height: 0.5rem;
+    position: absolute;
+    background: #e80707;
+
+}
+
+.red::before
+{
+    left: -1rem;
+    content: '';
+    width: 0.5rem;
+    height: 0.5rem;
+    position: absolute;
+    background: #e80707;
+}
+
+section
+{
+    position: absolute;
+    top: 30%;
+    left: 4%;
+    
+}
+section h1
+{
+    font-size: 68px; 
+    line-height: 60px;
+}
+
+section p
+{
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+section p::after
+{  
+    right: 40px;
+    bottom: -80px;
+    font-size: 38px;
+    content: '\276f';
+    position: absolute;
+    transform: rotate(90deg);
+}
+
+.black
+{
+    height: 4px;
+    width: 70px;
+    right: 85px;
+    bottom: -60px;
+    position: absolute;
+    background: #000;
+}
+
+.black::after
+{
+    content: '';
+    height: 4px;
+    width: 10px;
+    left: -1rem;
+    position: absolute;
+    background: #000;
+}
+
+aside
+{
+    width: 22px;
+    right: 55px;
+    bottom: 50px;
+    text-align: center;
+    position: absolute;
+}
+
+aside i
+{
+    font-size: 1.4rem;
+    margin: 20px 0;
+}
